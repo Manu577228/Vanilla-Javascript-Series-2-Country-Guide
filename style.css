@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  max-width: 600px;
+  padding: 3em;
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
+.search-wrapper button {
+  font-size: 1em;
+  background-color: purple;
+  color: #ffffff;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+  cursor: pointer;
+}
+
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0.62em;
+  border: none;
+  border-bottom: 2px solid purple;
+  outline: none;
+  color: #222a43;
+}
+
+#result {
+  margin-top: 1.25em;
+}
+
+.container .flag-img {
+  width: 100%;
+  max-width: 200px;
+  margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+}
+
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+}
+
+.container span {
+  color: #5d6274;
+}
+
+.container h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ff465a;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
